@@ -1,0 +1,23 @@
+<template>
+    <lightning-card >
+        <div lwc:if={recordId}>
+            <lightning-record-form
+            record-id={recordId}
+            object-api-name={objectName}
+            fields={fieldwithvalue}
+            columns="2"
+            mode="edit"
+            onsubmit={handleSubmit}
+             ></lightning-record-form>
+        </div>
+        <div lwc:else>
+            <lightning-record-form
+            object-api-name={objectName}
+            fields={fieldwithvalue}
+            columns="2"
+            mode="edit"
+            onsubmit={handleSubmit}
+                ></lightning-record-form>
+        </div>
+        </lightning-card>
+</template>

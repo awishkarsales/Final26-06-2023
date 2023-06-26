@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlexiPage xmlns="http://soap.sforce.com/2006/04/metadata">
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentName>assigmentData</componentName>
+                <identifier>c_assigmentData</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>Fields</name>
+                    <value>Name, Title__c, Description__c, DueDate__c,Status__c</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>ObjectName</name>
+                    <value>Assignment__c</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>OrderBy</name>
+                    <value>DueDate__c</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>TableColumns</name>
+                    <value>[{label:&apos;Assignment Name&apos;, fieldName:&apos;Name&apos;, sortable:false}, {label:&apos;Title&apos;,fieldName:&apos;Title__c&apos;}, {label:&apos;Description&apos;,fieldName:&apos;Description__c&apos;}, {label:&apos;DueDate&apos;,fieldName:&apos;DueDate__c&apos;},{label:&apos;Status&apos;,fieldName:&apos;Status__c&apos;},{type:&apos;action&apos;,typeAttributes:{rowActions:[{label:&apos;Edit&apos;,name:&apos;edit&apos;}]}}]</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>Title</name>
+                    <value>Account List</value>
+                </componentInstanceProperties>
+                <componentName>assignmentList</componentName>
+                <identifier>c_assignmentList</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>main</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <masterLabel>Awishkar Testing App Page</masterLabel>
+    <template>
+        <name>flexipage:defaultAppHomeTemplate</name>
+    </template>
+    <type>AppPage</type>
+</FlexiPage>
