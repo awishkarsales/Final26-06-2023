@@ -3,12 +3,6 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-                <componentName>assigmentData</componentName>
-                <identifier>c_assigmentData</identifier>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
                 <componentInstanceProperties>
                     <name>Fields</name>
                     <value>Name, Title__c, Description__c, DueDate__c,Status__c</value>
